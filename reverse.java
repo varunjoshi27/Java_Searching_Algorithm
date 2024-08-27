@@ -6,7 +6,7 @@ public class reverse {
             number[end]=number[start];
             number[start]=temp;
             
-            start++;
+            start++; 
             end--;
             
          }
