@@ -43,7 +43,7 @@ public class BinarySearch {
     int key=sc.nextInt();
 
   System.out.println("The index for the key is:"+binary(numbers, key));
- 
+    sc.close();
  
   }
 }

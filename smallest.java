@@ -20,6 +20,7 @@ public class smallest {
         }
         int Small=Smallestarr(number);
         System.out.println("The smallest number is:"+Small);
+        sc.close();
     }
 
 }

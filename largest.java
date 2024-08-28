@@ -22,6 +22,6 @@ public class largest {
         }
          int lar=largestarr(number);
         System.out.println("The largest element in the array is :"+lar);
-
+        sc.close();
     }
 }

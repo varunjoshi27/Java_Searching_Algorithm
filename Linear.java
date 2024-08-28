@@ -30,11 +30,14 @@ public class Linear {
 
         int index=LinearSearch(number, key);
 
-      if (index==key) {
-        System.out.println("The element id found is the index:"+index);
+      if (index!=-1) {
+        System.out.println("The element is found at the index:"+index);
         
       }else{
         System.out.println("The element is not");
+       
       }
+      sc.close();
     }
+  
 }
