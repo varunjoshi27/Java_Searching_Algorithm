@@ -26,10 +26,7 @@ public class bubble {
             arr[i]=sc.nextInt();
         }
 
-        // Bubble sort
-      
-        // Descending Order
-
+    
         
 
         System.out.println("Enter 1 for ascending sorting and 2 for descending sorting:");
@@ -37,6 +34,7 @@ public class bubble {
 
         switch (choice) {
             case 1:
+            // For Ascending Sorting
             for(int j=0;j<arr.length-1;j++){
                 for(int k=0;k<arr.length-j-1;k++){
                      if (arr[k]>arr[k+1]) {
@@ -54,6 +52,7 @@ public class bubble {
                 break;
 
             case 2:
+            // For descending Sorting
             for(int i=0;i<arr.length-1;i++){
                 for(int j=0;j<arr.length-i-1;j++){
                     if (arr[j]<arr[j+1]) {
