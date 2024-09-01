@@ -1,6 +1,3 @@
-/**
- * bubble
- */
 import java.util.*;
 public class bubble {
  public static void Arrayprint(int arr[]){
@@ -25,10 +22,7 @@ public class bubble {
         for(int i=0;i<n;i++){
             arr[i]=sc.nextInt();
         }
-
-    
         
-
         System.out.println("Enter 1 for ascending sorting and 2 for descending sorting:");
         int choice=sc.nextInt();
 
